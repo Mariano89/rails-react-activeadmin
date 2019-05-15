@@ -26,6 +26,18 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Ignore secrets.yml file
+/config/secrets.yml
+/config/master.key
+config/initializers/secret_token.rb
+
 # Ignore public, as it is built on deploy
 # Place files for /public in /client/public
 /public
+
+# Ignore node_modules
+node_modules/
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
